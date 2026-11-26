@@ -1,0 +1,2 @@
+/* Keep diagnostics in Settings content, after the normal settings cards. */
+(()=>{const previous=settings;settings=function(){const t=document.createElement('template');t.innerHTML=previous();const grid=t.content.querySelector('.settings170-grid'),diagnostics=t.content.querySelector('.coach233:has(#diagnostics233)');if(grid&&diagnostics){const card=diagnostics.querySelector('.card');if(card){card.classList.add('settings245-diagnostics');grid.append(card)}diagnostics.remove()}return t.innerHTML};if(location.hash==='#settings')render()})();

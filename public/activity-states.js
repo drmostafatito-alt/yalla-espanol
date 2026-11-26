@@ -1,0 +1,5 @@
+// Activity states reflect real playback and answers, never a free-running idle timer.
+const reviewSay=say;say=(text,speaker='')=>{document.documentElement.dataset.audioActive='false';reviewSay(text,speaker);const player=audioPlayer;if(!player)return;const on=()=>{document.documentElement.dataset.audioActive='true'};const off=()=>{document.documentElement.dataset.audioActive='false'};player.addEventListener('play',on);for(const event of ['pause','ended','error','abort'])player.addEventListener(event,off);if(!player.paused)on()};
+const reviewRenderExercise=renderExercise;renderExercise=()=>{reviewRenderExercise();reviewCharacterState()};
+function reviewCharacterState(){const f=view.feedback;const state=f?(f.ok?'correct':'retry'):'idle';document.documentElement.dataset.answerState=state;for(const img of document.querySelectorAll('.mascot,.listen-fox,.feedback-friend')){if(img instanceof HTMLImageElement&&img.src.includes('fox.svg'))img.src=img.src.split('#')[0]+(state==='idle'?'':'#'+state)}const footer=document.querySelector('.lesson-actions');footer?.classList.toggle('answer-sheet',!!f)}
+const reviewCheck=check;check=()=>{reviewCheck();reviewCharacterState()};

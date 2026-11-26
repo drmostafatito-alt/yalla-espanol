@@ -1,0 +1,1 @@
+(()=>{const reset=resetQuestion;resetQuestion=function(){reset();view.q=arabicQuestion169(view.q)};const clear=resetLaterCurriculum;resetLaterCurriculum=function(){Arabic169.clearProtected();return clear()}})();

@@ -1,0 +1,2 @@
+/* Keep fixed controls readable over every scrolling route. */
+(()=>{let pending=false;function update(){pending=false;const scrolled=window.scrollY>0||[...document.querySelectorAll('#app, #app *')].some(e=>e.scrollTop>0);document.body.toggleAttribute('data-header-shield357',scrolled)}function queue(){if(!pending){pending=true;requestAnimationFrame(update)}}document.addEventListener('scroll',queue,true);addEventListener('resize',queue);addEventListener('hashchange',()=>setTimeout(queue,0));new MutationObserver(queue).observe(app,{childList:true,subtree:true});queue()})();

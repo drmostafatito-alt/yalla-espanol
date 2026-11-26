@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240" role="img" aria-labelledby="t d">
+<title id="t">Fox listening</title><desc id="d">Fox with ears perked, head tilted, hand to ear, sound waves</desc>
+
+<g id="tail" transform="rotate(0 150 205)"><path d="M146 208 Q196 214 208 170 Q214 146 200 128 Q226 140 224 176 Q220 226 150 228 Z" fill="#F28A3C"/><path d="M200 128 Q226 140 224 176 Q223 186 220 194 Q206 186 204 170 Q204 146 200 128 Z" fill="#FFF1DF"/><path d="M150 228 Q190 226 210 206 Q190 216 146 208 Z" fill="#D96A1E" opacity=".55"/></g>
+<g id="body"><path d="M82 176 Q82 160 120 160 Q158 160 158 176 L162 218 Q162 230 120 230 Q78 230 78 218 Z" fill="#F28A3C"/><path d="M102 168 Q120 164 138 168 L142 216 Q142 226 120 226 Q98 226 98 216 Z" fill="#FFF1DF"/><ellipse cx="102" cy="229" rx="15" ry="6.5" fill="#D96A1E"/><ellipse cx="138" cy="229" rx="15" ry="6.5" fill="#D96A1E"/></g>
+<g id="scarf"><path d="M126 166 L150 166 L162 218 Q148 224 134 214 Z" fill="#17807E"/><path d="M142 168 L150 168 L158 202 L150 206 Z" fill="#20A7A3" opacity=".0"/><path d="M62 152 Q120 176 178 152 Q184 170 176 176 Q120 196 64 176 Q56 170 62 152 Z" fill="#20A7A3"/><path d="M64 170 Q120 190 176 170 Q177 174 174 177 Q120 197 66 177 Q62 174 64 170 Z" fill="#17807E"/><path d="M90 166 L92 176 M120 172 L120 182 M150 166 L148 176" stroke="#FFF1DF" stroke-width="3" stroke-linecap="round" opacity=".55"/></g>
+<g id="head" transform="rotate(-6 120 160)">
+<g id="ears"><g id="ear-l"><path d="M62 82 L54 20 Q92 34 106 68 Z" fill="#F28A3C"/><path d="M68 72 L64 34 Q86 44 96 68 Z" fill="#F4A39A"/></g><g id="ear-r"><path d="M178 82 L186 20 Q148 34 134 68 Z" fill="#F28A3C"/><path d="M172 72 L176 34 Q154 44 144 68 Z" fill="#F4A39A"/></g></g>
+<g id="face"><path id="face-base" d="M52 108 Q52 66 120 66 Q188 66 188 108 Q188 124 202 136 Q172 164 120 164 Q68 164 38 136 Q52 124 52 108 Z" fill="#F28A3C"/>
+<path d="M38 136 Q64 116 94 128 Q112 136 120 130 Q128 136 146 128 Q176 116 202 136 Q172 164 120 164 Q68 164 38 136 Z" fill="#FFF1DF"/>
+<path d="M104 70 Q120 62 136 70 Q130 90 120 96 Q110 90 104 70 Z" fill="#FFF1DF" opacity=".0"/>
+<ellipse cx="70" cy="128" rx="9" ry="5.5" fill="#F4A39A" opacity=".55"/><ellipse cx="170" cy="128" rx="9" ry="5.5" fill="#F4A39A" opacity=".55"/>
+<path d="M112 123 Q120 119 128 123 Q126 132 120 134 Q114 132 112 123 Z" fill="#2A1A2E"/></g>
+<g id="eyes"><ellipse cx="92" cy="105" rx="8.5" ry="11" fill="#2A1A2E"/><circle cx="95" cy="100" r="3.2" fill="#fff"/><circle cx="89.5" cy="109" r="1.6" fill="#fff" opacity=".8"/><ellipse cx="148" cy="105" rx="8.5" ry="11" fill="#2A1A2E"/><circle cx="151" cy="100" r="3.2" fill="#fff"/><circle cx="145.5" cy="109" r="1.6" fill="#fff" opacity=".8"/></g>
+<g id="brows"><path d="M80 86 Q91 78 103 84" fill="none" stroke="#D96A1E" stroke-width="4.5" stroke-linecap="round"/><path d="M137 84 Q149 78 160 86" fill="none" stroke="#D96A1E" stroke-width="4.5" stroke-linecap="round"/></g>
+<g id="mouth"><ellipse cx="120" cy="143" rx="6" ry="7.5" fill="#2A1A2E"/></g>
+</g>
+<g id="arms"><g id="arm-l"><path d="M86 176 Q70 192 76 210" fill="none" stroke="#F28A3C" stroke-width="15" stroke-linecap="round"/><circle cx="76" cy="210" r="9.5" fill="#D96A1E"/></g><g id="arm-r"><path d="M154 178 Q196 176 208 122" fill="none" stroke="#F28A3C" stroke-width="15" stroke-linecap="round"/><circle cx="208" cy="122" r="9.5" fill="#D96A1E"/></g></g>
+<g id="sound-waves"><path d="M22 101 Q15.4 112 22 123" fill="none" stroke="#20A7A3" stroke-width="5" stroke-linecap="round" opacity="1.0"/><path d="M16 91 Q3.4000000000000004 112 16 133" fill="none" stroke="#20A7A3" stroke-width="5" stroke-linecap="round" opacity="0.7"/></g>
+</svg>

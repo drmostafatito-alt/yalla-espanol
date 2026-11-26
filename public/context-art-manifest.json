@@ -1,0 +1,566 @@
+{
+  "release": 121,
+  "baseline": 120,
+  "scope": "Shared unit situation art on teaching/path only. Not122unique exact-word pictures. No assessment clues.",
+  "units": [
+    {
+      "unitId": "u1",
+      "unitIndex": 0,
+      "title": "أول كلام بالإسباني",
+      "lessonIds": [
+        "u1l1",
+        "u1l2",
+        "u1l3"
+      ],
+      "asset": "assets/contexts/unit-01-conversation.svg",
+      "depictedContext": "تعارف وتحيات بين شخصين",
+      "motion": "حركة إشارة ودية وفقاعات كلام",
+      "coverage": "sharedSituationNotLiteralTarget",
+      "exceptions": "Abstract grammar/pronouns/states use a contextual scene, not a claimed literal translation. No scene on tests, listening or review.",
+      "status": "visual-review-pass-motion-and-reduced-motion-pass"
+    },
+    {
+      "unitId": "u2",
+      "unitIndex": 1,
+      "title": "نتعرّف على بعض",
+      "lessonIds": [
+        "u2l1",
+        "u2l2",
+        "u2l3"
+      ],
+      "asset": "assets/contexts/unit-02-introduction.svg",
+      "depictedContext": "بطاقة تعريف وفقاعة حوار",
+      "motion": "لمعة هادية على بطاقة التعريف",
+      "coverage": "sharedSituationNotLiteralTarget",
+      "exceptions": "Abstract grammar/pronouns/states use a contextual scene, not a claimed literal translation. No scene on tests, listening or review.",
+      "status": "visual-review-pass-motion-and-reduced-motion-pass"
+    },
+    {
+      "unitId": "u3",
+      "unitIndex": 2,
+      "title": "في الكافيه",
+      "lessonIds": [
+        "u3l1",
+        "u3l2",
+        "u3l3"
+      ],
+      "asset": "assets/contexts/unit-03-cafe.svg",
+      "depictedContext": "كافيه ومشروبات على الكاونتر",
+      "motion": "بخار بيطلع من الكوباية",
+      "coverage": "sharedSituationNotLiteralTarget",
+      "exceptions": "Abstract grammar/pronouns/states use a contextual scene, not a claimed literal translation. No scene on tests, listening or review.",
+      "status": "visual-review-pass-motion-and-reduced-motion-pass"
+    },
+    {
+      "unitId": "u4",
+      "unitIndex": 3,
+      "title": "الأرقام والمشتريات",
+      "lessonIds": [
+        "u4l1",
+        "u4l2",
+        "u4l3"
+      ],
+      "asset": "assets/contexts/unit-04-shopping-count.svg",
+      "depictedContext": "تسوق وحساب سعر",
+      "motion": "أزرار الآلة الحاسبة بتنور بالتتابع",
+      "coverage": "sharedSituationNotLiteralTarget",
+      "exceptions": "Abstract grammar/pronouns/states use a contextual scene, not a claimed literal translation. No scene on tests, listening or review.",
+      "status": "visual-review-pass-motion-and-reduced-motion-pass"
+    },
+    {
+      "unitId": "u5",
+      "unitIndex": 4,
+      "title": "في الشارع",
+      "lessonIds": [
+        "u5l1",
+        "u5l2",
+        "u5l3"
+      ],
+      "asset": "assets/contexts/unit-05-street.svg",
+      "depictedContext": "شارع وتحديد مكان",
+      "motion": "علامة المكان بتتحرك لفوق وتحت",
+      "coverage": "sharedSituationNotLiteralTarget",
+      "exceptions": "Abstract grammar/pronouns/states use a contextual scene, not a claimed literal translation. No scene on tests, listening or review.",
+      "status": "visual-review-pass-motion-and-reduced-motion-pass"
+    },
+    {
+      "unitId": "u6",
+      "unitIndex": 5,
+      "title": "يومك ببساطة",
+      "lessonIds": [
+        "u6l1",
+        "u6l2",
+        "u6l3"
+      ],
+      "asset": "assets/contexts/unit-06-daily-needs.svg",
+      "depictedContext": "يوم عادي بين الشرب والراحة",
+      "motion": "بخار المشروب وشمس بتتحرك بهدوء",
+      "coverage": "sharedSituationNotLiteralTarget",
+      "exceptions": "Abstract grammar/pronouns/states use a contextual scene, not a claimed literal translation. No scene on tests, listening or review.",
+      "status": "visual-review-pass-motion-and-reduced-motion-pass"
+    },
+    {
+      "unitId": "u7",
+      "unitIndex": 6,
+      "title": "السن واللغات والشغل",
+      "lessonIds": [
+        "u7l1",
+        "u7l2",
+        "u7l3"
+      ],
+      "asset": "assets/contexts/unit-07-age-language-work.svg",
+      "depictedContext": "تعريف بالنفس ولغات وشغل",
+      "motion": "حوار وتعريف بالنفس بحركة خفيفة",
+      "coverage": "sharedSituationNotLiteralTarget",
+      "exceptions": "Abstract grammar/pronouns/states use a contextual scene, not a claimed literal translation. No scene on tests, listening or review.",
+      "status": "visual-review-pass-motion-and-reduced-motion-pass"
+    },
+    {
+      "unitId": "u8",
+      "unitIndex": 7,
+      "title": "عيلتي والناس القريبة",
+      "lessonIds": [
+        "u8l1",
+        "u8l2",
+        "u8l3"
+      ],
+      "asset": "assets/contexts/unit-08-family.svg",
+      "depictedContext": "العيلة والناس القريبة",
+      "motion": "تحية بسيطة من مجموعة أشخاص",
+      "coverage": "sharedSituationNotLiteralTarget",
+      "exceptions": "Abstract grammar/pronouns/states use a contextual scene, not a claimed literal translation. No scene on tests, listening or review.",
+      "status": "visual-review-pass-motion-and-reduced-motion-pass"
+    },
+    {
+      "unitId": "u9",
+      "unitIndex": 8,
+      "title": "بيتي والمدينة",
+      "lessonIds": [
+        "u9l1",
+        "u9l2",
+        "u9l3"
+      ],
+      "asset": "assets/contexts/unit-09-home.svg",
+      "depictedContext": "السكن ومكان البيت",
+      "motion": "علامة المكان بتطلع وتنزل",
+      "coverage": "sharedSituationNotLiteralTarget",
+      "exceptions": "Abstract grammar/pronouns/states use a contextual scene, not a claimed literal translation. No scene on tests, listening or review.",
+      "status": "visual-review-pass-motion-and-reduced-motion-pass"
+    },
+    {
+      "unitId": "u10",
+      "unitIndex": 9,
+      "title": "روتين يومي بسيط",
+      "lessonIds": [
+        "u10l1",
+        "u10l2",
+        "u10l3"
+      ],
+      "asset": "assets/contexts/unit-10-routine.svg",
+      "depictedContext": "فطار وقراية ضمن الروتين اليومي",
+      "motion": "بخار الفطار ولمعة هادية على الكتاب",
+      "coverage": "sharedSituationNotLiteralTarget",
+      "exceptions": "Abstract grammar/pronouns/states use a contextual scene, not a claimed literal translation. No scene on tests, listening or review.",
+      "status": "visual-review-pass-motion-and-reduced-motion-pass"
+    },
+    {
+      "unitId": "u11",
+      "unitIndex": 10,
+      "title": "أرقام نستخدمها كل يوم",
+      "lessonIds": [
+        "u11l1",
+        "u11l2",
+        "u11l3",
+        "u11l4",
+        "u11l5",
+        "u11l6",
+        "u11l7",
+        "u11l8"
+      ],
+      "asset": "assets/contexts/unit-11-numbers.svg",
+      "depictedContext": "أرقام وعد وحساب",
+      "motion": "حبات العداد بتتهز بهدوء",
+      "coverage": "sharedSituationNotLiteralTarget",
+      "exceptions": "Abstract grammar/pronouns/states use a contextual scene, not a claimed literal translation. No scene on tests, listening or review.",
+      "status": "visual-review-pass-motion-and-reduced-motion-pass"
+    },
+    {
+      "unitId": "u12",
+      "unitIndex": 11,
+      "title": "الساعة والموعد",
+      "lessonIds": [
+        "u12l1",
+        "u12l2",
+        "u12l3"
+      ],
+      "asset": "assets/contexts/unit-12-appointment.svg",
+      "depictedContext": "تنظيم ميعاد في المفكرة",
+      "motion": "موعد متعلم عليه بينور، من غير ساعة غلط",
+      "coverage": "sharedSituationNotLiteralTarget",
+      "exceptions": "Abstract grammar/pronouns/states use a contextual scene, not a claimed literal translation. No scene on tests, listening or review.",
+      "status": "visual-review-pass-motion-and-reduced-motion-pass"
+    },
+    {
+      "unitId": "u13",
+      "unitIndex": 12,
+      "title": "أيام الأسبوع",
+      "lessonIds": [
+        "u13l1",
+        "u13l2",
+        "u13l3"
+      ],
+      "asset": "assets/contexts/unit-13-week.svg",
+      "depictedContext": "جدول أيام الأسبوع",
+      "motion": "شريط الأسبوع بينور بالتتابع",
+      "coverage": "sharedSituationNotLiteralTarget",
+      "exceptions": "Abstract grammar/pronouns/states use a contextual scene, not a claimed literal translation. No scene on tests, listening or review.",
+      "status": "visual-review-pass-motion-and-reduced-motion-pass"
+    },
+    {
+      "unitId": "u14",
+      "unitIndex": 13,
+      "title": "أكل بسيط على السفرة",
+      "lessonIds": [
+        "u14l1",
+        "u14l2",
+        "u14l3"
+      ],
+      "asset": "assets/contexts/unit-14-food.svg",
+      "depictedContext": "أكل وشرب على السفرة",
+      "motion": "بخار المشروب ولمعة على الطبق",
+      "coverage": "sharedSituationNotLiteralTarget",
+      "exceptions": "Abstract grammar/pronouns/states use a contextual scene, not a claimed literal translation. No scene on tests, listening or review.",
+      "status": "visual-review-pass-motion-and-reduced-motion-pass"
+    },
+    {
+      "unitId": "u15",
+      "unitIndex": 14,
+      "title": "الشهور والفصول",
+      "lessonIds": [
+        "u15l1",
+        "u15l2",
+        "u15l3",
+        "u15l4",
+        "u15l5",
+        "u15l6"
+      ],
+      "asset": "assets/contexts/unit-15-months-seasons.svg",
+      "depictedContext": "شهور السنة وتغيّر الفصول",
+      "motion": "ورقة شجر بتتمايل وشمس هادية",
+      "coverage": "sharedSituationNotLiteralTarget",
+      "exceptions": "Abstract grammar/pronouns/states use a contextual scene, not a claimed literal translation. No scene on tests, listening or review.",
+      "status": "visual-review-pass-motion-and-reduced-motion-pass"
+    },
+    {
+      "unitId": "u16",
+      "unitIndex": 15,
+      "title": "الجو عامل إيه؟",
+      "lessonIds": [
+        "u16l1",
+        "u16l2",
+        "u16l3"
+      ],
+      "asset": "assets/contexts/unit-16-weather.svg",
+      "depictedContext": "الجو بين شمس ومطر",
+      "motion": "قطرات مطر وشمس بتتحرك",
+      "coverage": "sharedSituationNotLiteralTarget",
+      "exceptions": "Abstract grammar/pronouns/states use a contextual scene, not a claimed literal translation. No scene on tests, listening or review.",
+      "status": "visual-review-pass-motion-and-reduced-motion-pass"
+    },
+    {
+      "unitId": "u17",
+      "unitIndex": 16,
+      "title": "هوايات وذوق شخصي",
+      "lessonIds": [
+        "u17l1",
+        "u17l2",
+        "u17l3",
+        "u17l4"
+      ],
+      "asset": "assets/contexts/unit-17-hobbies.svg",
+      "depictedContext": "قراية وموسيقى وكرة كهوايات",
+      "motion": "نغمة موسيقى بتطلع وتنزل",
+      "coverage": "sharedSituationNotLiteralTarget",
+      "exceptions": "Abstract grammar/pronouns/states use a contextual scene, not a claimed literal translation. No scene on tests, listening or review.",
+      "status": "visual-review-pass-motion-and-reduced-motion-pass"
+    },
+    {
+      "unitId": "u18",
+      "unitIndex": 17,
+      "title": "المواصلات",
+      "lessonIds": [
+        "u18l1",
+        "u18l2",
+        "u18l3"
+      ],
+      "asset": "assets/contexts/unit-18-transport.svg",
+      "depictedContext": "مواصلات وشنطة سفر",
+      "motion": "قطر بيتحرك مسافة قصيرة",
+      "coverage": "sharedSituationNotLiteralTarget",
+      "exceptions": "Abstract grammar/pronouns/states use a contextual scene, not a claimed literal translation. No scene on tests, listening or review.",
+      "status": "visual-review-pass-motion-and-reduced-motion-pass"
+    },
+    {
+      "unitId": "u19",
+      "unitIndex": 18,
+      "title": "الألوان واللبس",
+      "lessonIds": [
+        "u19l1",
+        "u19l2",
+        "u19l3"
+      ],
+      "asset": "assets/contexts/unit-19-clothing.svg",
+      "depictedContext": "لبس واختيار ألوان",
+      "motion": "القميص بيتمايل زي قطعة على علاقة",
+      "coverage": "sharedSituationNotLiteralTarget",
+      "exceptions": "Abstract grammar/pronouns/states use a contextual scene, not a claimed literal translation. No scene on tests, listening or review.",
+      "status": "visual-review-pass-motion-and-reduced-motion-pass"
+    },
+    {
+      "unitId": "u20",
+      "unitIndex": 19,
+      "title": "الفندق والإقامة",
+      "lessonIds": [
+        "u20l1",
+        "u20l2",
+        "u20l3",
+        "u20l4"
+      ],
+      "asset": "assets/contexts/unit-20-hotel.svg",
+      "depictedContext": "إقامة في فندق ومفتاح أوضة",
+      "motion": "مفتاح الأوضة بيتمايل بهدوء",
+      "coverage": "sharedSituationNotLiteralTarget",
+      "exceptions": "Abstract grammar/pronouns/states use a contextual scene, not a claimed literal translation. No scene on tests, listening or review.",
+      "status": "visual-review-pass-motion-and-reduced-motion-pass"
+    },
+    {
+      "unitId": "u21",
+      "unitIndex": 20,
+      "title": "أماكن واتجاهات أوضح",
+      "lessonIds": [
+        "u21l1",
+        "u21l2",
+        "u21l3",
+        "u21l4"
+      ],
+      "asset": "assets/contexts/unit-21-city-services.svg",
+      "depictedContext": "محل وخدمات في الشارع",
+      "motion": "علامة المكان بتتحرك",
+      "coverage": "sharedSituationNotLiteralTarget",
+      "exceptions": "Abstract grammar/pronouns/states use a contextual scene, not a claimed literal translation. No scene on tests, listening or review.",
+      "status": "visual-review-pass-motion-and-reduced-motion-pass"
+    },
+    {
+      "unitId": "u22",
+      "unitIndex": 21,
+      "title": "الجسم وطلب مساعدة بسيطة",
+      "lessonIds": [
+        "u22l1",
+        "u22l2",
+        "u22l3",
+        "u22l4"
+      ],
+      "asset": "assets/contexts/unit-22-body-help.svg",
+      "depictedContext": "الجسم وطلب مساعدة، من غير تشخيص",
+      "motion": "إشارة ودية جنب شنطة إسعافات",
+      "coverage": "sharedSituationNotLiteralTarget",
+      "exceptions": "Abstract grammar/pronouns/states use a contextual scene, not a claimed literal translation. No scene on tests, listening or review.",
+      "status": "visual-review-pass-motion-and-reduced-motion-pass"
+    },
+    {
+      "unitId": "u23",
+      "unitIndex": 22,
+      "title": "وصف الناس والحاجات",
+      "lessonIds": [
+        "u23l1",
+        "u23l2",
+        "u23l3",
+        "u23l4"
+      ],
+      "asset": "assets/contexts/unit-23-people-description.svg",
+      "depictedContext": "وصف الناس والحاجات والملكية",
+      "motion": "شخصيتان بأطوال مختلفة، حركة تحية",
+      "coverage": "sharedSituationNotLiteralTarget",
+      "exceptions": "Abstract grammar/pronouns/states use a contextual scene, not a claimed literal translation. No scene on tests, listening or review.",
+      "status": "visual-review-pass-motion-and-reduced-motion-pass"
+    },
+    {
+      "unitId": "u24",
+      "unitIndex": 23,
+      "title": "خطط قريبة ومواعيد",
+      "lessonIds": [
+        "u24l1",
+        "u24l2",
+        "u24l3",
+        "u24l4"
+      ],
+      "asset": "assets/contexts/unit-24-plans.svg",
+      "depictedContext": "خطط قريبة ومواعيد وسفر",
+      "motion": "لمعة على الموعد واهتزاز بسيط للشنطة",
+      "coverage": "sharedSituationNotLiteralTarget",
+      "exceptions": "Abstract grammar/pronouns/states use a contextual scene, not a claimed literal translation. No scene on tests, listening or review.",
+      "status": "visual-review-pass-motion-and-reduced-motion-pass"
+    },
+    {
+      "unitId": "u25",
+      "unitIndex": 24,
+      "title": "أنا وإنت وإحنا",
+      "lessonIds": [
+        "u25l1",
+        "u25l2",
+        "u25l3",
+        "u25l4"
+      ],
+      "asset": "assets/contexts/unit-25-pronouns.svg",
+      "depictedContext": "أشخاص بيتكلموا في مجموعة",
+      "motion": "فقاعة كلام بتتحرك، مش صورة حرفية لضمير",
+      "coverage": "sharedSituationNotLiteralTarget",
+      "exceptions": "Abstract grammar/pronouns/states use a contextual scene, not a claimed literal translation. No scene on tests, listening or review.",
+      "status": "visual-review-pass-motion-and-reduced-motion-pass"
+    },
+    {
+      "unitId": "u26",
+      "unitIndex": 25,
+      "title": "الناس موجودة فين؟",
+      "lessonIds": [
+        "u26l1",
+        "u26l2",
+        "u26l3",
+        "u26l4"
+      ],
+      "asset": "assets/contexts/unit-26-people-locations.svg",
+      "depictedContext": "أماكن الناس وحالتهم في مواقف يومية",
+      "motion": "علامة مكان وحركة تحية",
+      "coverage": "sharedSituationNotLiteralTarget",
+      "exceptions": "Abstract grammar/pronouns/states use a contextual scene, not a claimed literal translation. No scene on tests, listening or review.",
+      "status": "visual-review-pass-motion-and-reduced-motion-pass"
+    },
+    {
+      "unitId": "u27",
+      "unitIndex": 26,
+      "title": "المضارع في الشغل والدراسة",
+      "lessonIds": [
+        "u27l1",
+        "u27l2",
+        "u27l3",
+        "u27l4"
+      ],
+      "asset": "assets/contexts/unit-27-study-work.svg",
+      "depictedContext": "شغل ودراسة على مكتب",
+      "motion": "لمعة على الشاشة وتمايل خفيف للكتاب",
+      "coverage": "sharedSituationNotLiteralTarget",
+      "exceptions": "Abstract grammar/pronouns/states use a contextual scene, not a claimed literal translation. No scene on tests, listening or review.",
+      "status": "visual-review-pass-motion-and-reduced-motion-pass"
+    },
+    {
+      "unitId": "u28",
+      "unitIndex": 27,
+      "title": "المضارع على السفرة",
+      "lessonIds": [
+        "u28l1",
+        "u28l2",
+        "u28l3",
+        "u28l4"
+      ],
+      "asset": "assets/contexts/unit-28-eating-reading.svg",
+      "depictedContext": "أكل وشرب وقراية على السفرة",
+      "motion": "بخار كوب وحركة هادية للموقف",
+      "coverage": "sharedSituationNotLiteralTarget",
+      "exceptions": "Abstract grammar/pronouns/states use a contextual scene, not a claimed literal translation. No scene on tests, listening or review.",
+      "status": "visual-review-pass-motion-and-reduced-motion-pass"
+    },
+    {
+      "unitId": "u29",
+      "unitIndex": 28,
+      "title": "السكن والكتابة ومواعيد الفتح",
+      "lessonIds": [
+        "u29l1",
+        "u29l2",
+        "u29l3",
+        "u29l4"
+      ],
+      "asset": "assets/contexts/unit-29-living-writing.svg",
+      "depictedContext": "بيت وكتابة ورسالة",
+      "motion": "ورقة وقلم بيتمايلوا بهدوء",
+      "coverage": "sharedSituationNotLiteralTarget",
+      "exceptions": "Abstract grammar/pronouns/states use a contextual scene, not a claimed literal translation. No scene on tests, listening or review.",
+      "status": "visual-review-pass-motion-and-reduced-motion-pass"
+    },
+    {
+      "unitId": "u30",
+      "unitIndex": 29,
+      "title": "أرقام نركّبها ونستخدمها",
+      "lessonIds": [
+        "u30l1",
+        "u30l2",
+        "u30l3",
+        "u30l4"
+      ],
+      "asset": "assets/contexts/unit-30-compound-numbers.svg",
+      "depictedContext": "أرقام مركّبة وعد وأسعار",
+      "motion": "أزرار وحبات عد بتتحرك، من غير رقم يوحي بإجابة",
+      "coverage": "sharedSituationNotLiteralTarget",
+      "exceptions": "Abstract grammar/pronouns/states use a contextual scene, not a claimed literal translation. No scene on tests, listening or review.",
+      "status": "visual-review-pass-motion-and-reduced-motion-pass"
+    },
+    {
+      "unitId": "u31",
+      "unitIndex": 30,
+      "title": "قد إيه وكام واحدة؟",
+      "lessonIds": [
+        "u31l1",
+        "u31l2",
+        "u31l3",
+        "u31l4"
+      ],
+      "asset": "assets/contexts/unit-31-quantities.svg",
+      "depictedContext": "وزن وكمية مشروب",
+      "motion": "كفتي ميزان بتتمايل بهدوء",
+      "coverage": "sharedSituationNotLiteralTarget",
+      "exceptions": "Abstract grammar/pronouns/states use a contextual scene, not a claimed literal translation. No scene on tests, listening or review.",
+      "status": "visual-review-pass-motion-and-reduced-motion-pass"
+    },
+    {
+      "unitId": "u32",
+      "unitIndex": 31,
+      "title": "تاريخ الميلاد واليوم",
+      "lessonIds": [
+        "u32l1",
+        "u32l2",
+        "u32l3",
+        "u32l4"
+      ],
+      "asset": "assets/contexts/unit-32-dates-birthday.svg",
+      "depictedContext": "تاريخ في التقويم وعيد ميلاد",
+      "motion": "لهب شمعتين بيتحرك وموعد بينور",
+      "coverage": "sharedSituationNotLiteralTarget",
+      "exceptions": "Abstract grammar/pronouns/states use a contextual scene, not a claimed literal translation. No scene on tests, listening or review.",
+      "status": "visual-review-pass-motion-and-reduced-motion-pass"
+    },
+    {
+      "unitId": "u33",
+      "unitIndex": 32,
+      "title": "في المحل وعند الحساب",
+      "lessonIds": [
+        "u33l1",
+        "u33l2",
+        "u33l3",
+        "u33l4"
+      ],
+      "asset": "assets/contexts/unit-33-checkout.svg",
+      "depictedContext": "مشتريات ودفع بكارت عند الكاشير",
+      "motion": "إشارة الدفع بتومض وحركة بسيطة للكارت",
+      "coverage": "sharedSituationNotLiteralTarget",
+      "exceptions": "Abstract grammar/pronouns/states use a contextual scene, not a claimed literal translation. No scene on tests, listening or review.",
+      "status": "visual-review-pass-motion-and-reduced-motion-pass"
+    }
+  ],
+  "qa": {
+    "drawnAndVisuallyInspected": 33,
+    "teachingPositions": 488,
+    "assessmentPositionsWithoutScene": 2681,
+    "themes": 2,
+    "allSpecificPropMotionPixelChecked": true,
+    "reducedMotionPass": true
+  }
+}

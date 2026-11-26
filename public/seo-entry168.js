@@ -1,0 +1,1 @@
+(()=>{const id=new URL(location.href).searchParams.get('track');if(!['call-center','tourism-work','job-interview','everyday-core'].includes(id))return;let n=0;const timer=setInterval(()=>{if(!window.__accountReady147){if(++n>100)clearInterval(timer);return}clearInterval(timer);chooseCourse(id);history.replaceState(null,'',location.pathname+'#path');render()},100)})();

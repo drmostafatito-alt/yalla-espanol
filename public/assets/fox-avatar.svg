@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="24 14 192 176" width="96" height="96" role="img" aria-labelledby="t d">
+<title id="t">Fox avatar</title><desc id="d">Fox head and scarf for header</desc>
+
+<g id="scarf"><path d="M62 152 Q120 176 178 152 Q184 170 176 176 Q120 196 64 176 Q56 170 62 152 Z" fill="#20A7A3"/><path d="M64 170 Q120 190 176 170 Q177 174 174 177 Q120 197 66 177 Q62 174 64 170 Z" fill="#17807E"/></g>
+<g id="head" transform="rotate(0 120 160)">
+<g id="ears"><g id="ear-l"><path d="M62 82 L56 26 Q92 38 106 68 Z" fill="#F28A3C"/><path d="M68 72 L65 40 Q86 48 96 68 Z" fill="#F4A39A"/></g><g id="ear-r"><path d="M178 82 L184 26 Q148 38 134 68 Z" fill="#F28A3C"/><path d="M172 72 L175 40 Q154 48 144 68 Z" fill="#F4A39A"/></g></g>
+<g id="face"><path id="face-base" d="M52 108 Q52 66 120 66 Q188 66 188 108 Q188 124 202 136 Q172 164 120 164 Q68 164 38 136 Q52 124 52 108 Z" fill="#F28A3C"/>
+<path d="M38 136 Q64 116 94 128 Q112 136 120 130 Q128 136 146 128 Q176 116 202 136 Q172 164 120 164 Q68 164 38 136 Z" fill="#FFF1DF"/>
+<path d="M104 70 Q120 62 136 70 Q130 90 120 96 Q110 90 104 70 Z" fill="#FFF1DF" opacity=".0"/>
+<ellipse cx="70" cy="128" rx="9" ry="5.5" fill="#F4A39A" opacity=".55"/><ellipse cx="170" cy="128" rx="9" ry="5.5" fill="#F4A39A" opacity=".55"/>
+<path d="M112 123 Q120 119 128 123 Q126 132 120 134 Q114 132 112 123 Z" fill="#2A1A2E"/></g>
+<g id="eyes"><ellipse cx="92" cy="106" rx="7.5" ry="9.5" fill="#2A1A2E"/><circle cx="94.5" cy="101" r="2.8" fill="#fff"/><ellipse cx="148" cy="106" rx="7.5" ry="9.5" fill="#2A1A2E"/><circle cx="150.5" cy="101" r="2.8" fill="#fff"/></g>
+<g id="brows"></g>
+<g id="mouth"><path d="M106 140 Q120 152 134 140" fill="none" stroke="#2A1A2E" stroke-width="4.5" stroke-linecap="round"/></g>
+</g>
+
+
+</svg>

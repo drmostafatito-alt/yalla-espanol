@@ -1,0 +1,9 @@
+Lesson-completion music: candidate 3 selected by the user, 22 November 2026.
+Author: Fupi
+Original file: WinStrings.wav, from Win Jingle.
+Source: https://opengameart.org/content/win-jingle
+License: Creative Commons CC0 1.0 Universal
+License URL: http://creativecommons.org/publicdomain/zero/1.0/
+Edits: tail trimmed to 2.8 seconds, short edge fades, peak normalized to -3 dBFS, MP3 encoding at 192 kbps.
+Runtime SHA-256: 6d2dba47ab3a3159059ac998b11f650a630ed8e38f8972d751327aadba3d6092
+No endorsement by the author is implied.

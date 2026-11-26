@@ -1,0 +1,66 @@
+/* Calm, task-first lesson composition. No new character identity. */
+.home122-context,.unit-head-art,.teaching-context-art{display:none!important}
+.home122-welcome{min-height:0;display:block}.home122-welcome h1{font-size:27px}.home122-welcome{padding:18px 0 10px}
+.lesson-shell .exercise-coach{display:none!important}
+.lesson-shell.exercise-layout{min-height:100svh!important;height:auto!important;display:flex!important;flex-direction:column!important;justify-content:flex-start!important;gap:20px!important;box-shadow:none!important;background:var(--bg)!important;padding:20px 20px 36px!important;max-width:920px!important}
+.lesson-shell .lesson-top{margin:0!important;padding:0 0 14px!important;border-bottom:1px solid var(--line);width:100%}
+.lesson-shell .exercise{height:auto!important;min-height:0!important;flex:0 0 auto!important;display:flex!important;flex-direction:column!important;justify-content:flex-start!important;gap:15px!important;overflow:visible!important;padding:0!important;width:100%!important;max-width:760px!important;margin:0 auto!important}
+.lesson-shell .exercise h1{font-size:24px!important;line-height:1.5!important;margin:0 0 5px!important;letter-spacing:0}
+.lesson-shell .lesson-sub{font-size:12px!important;margin:0!important;color:var(--muted)!important}
+.lesson-shell .exercise>p{font-size:14px!important;line-height:1.8!important;margin:0!important}
+.lesson-shell .stage,.lesson-shell .dialogline{display:block!important;margin:0!important;min-height:0!important;height:auto!important}
+.lesson-shell .bubble{width:100%!important;min-height:0!important;padding:18px!important;border:1px solid var(--line)!important;border-radius:14px!important;background:var(--panel)!important;box-shadow:none!important;filter:none!important}
+.lesson-shell .bubble:before,.lesson-shell .bubble:after,.listen-bubble:before,.listen-bubble:after{display:none!important}
+.lesson-shell .bubble .phrase{font-size:25px!important;line-height:1.55!important;font-weight:700}
+.lesson-shell .bubble p,.lesson-shell .dialogline small{font-size:14px!important;line-height:1.8!important;margin:9px 0 0!important}
+.lesson-shell .tip,.lesson-shell .notice{border:0!important;border-inline-start:3px solid var(--teal)!important;background:var(--panel)!important;border-radius:4px!important;padding:12px 14px!important;margin:0!important;font-size:14px!important;line-height:1.85!important}
+.lesson-shell .context-strip{background:none!important;border:0!important;padding:0!important;margin:0!important;min-height:0!important;justify-content:flex-start!important}
+.lesson-shell .context-strip small{display:none}.lesson-shell .context-strip strong{font-size:12px!important;color:var(--muted);font-weight:400}
+.lesson-shell .lesson-actions{position:static!important;max-height:none!important;overflow:visible!important;flex:none!important;margin:0 auto!important;padding:20px 0 0!important;width:100%!important;max-width:760px!important;border-top:1px solid var(--line)!important;background:none!important}
+.lesson-shell .lesson-actions>.btn{width:100%;min-height:50px!important;box-shadow:none!important;border-radius:12px!important;font-size:16px!important}
+.lesson-shell .answerline{min-height:62px!important;height:auto!important;padding:12px!important;border:1px dashed var(--line)!important;border-radius:12px!important;background:var(--panel)!important;margin:0!important;display:flex;flex-wrap:wrap;gap:8px}
+.lesson-shell .answerline:empty:before{display:none!important}
+.lesson-shell .tiles{margin:0!important;gap:9px!important;justify-content:flex-start!important;min-height:0!important}
+.lesson-shell .tile{box-shadow:none!important;border:1px solid var(--line)!important;border-radius:10px!important;min-height:46px!important;padding:8px 13px!important;font-size:17px!important}
+.lesson-shell .options{margin:0!important;gap:9px!important}.lesson-shell .option{border:1px solid var(--line)!important;box-shadow:none!important;border-radius:12px!important;min-height:52px!important;margin:0!important;padding:8px 12px!important}.lesson-shell .option .choose{font-size:17px!important;min-height:36px!important}.lesson-shell .option .es{font-size:18px!important}
+.lesson-shell .audio{box-shadow:none!important;border:1px solid var(--teal)!important;border-radius:10px!important;width:44px!important;height:44px!important;min-width:44px!important;font-size:20px!important}
+.lesson-shell .listen-scene{height:auto!important;min-height:0!important;display:block!important;margin:0!important;padding:18px!important;border:1px solid var(--line)!important;border-radius:14px!important;background:var(--panel)!important}
+.lesson-shell .listen-bubble{width:100%!important;min-width:0!important;height:auto!important;border:0!important;background:none!important;box-shadow:none!important;padding:0!important;display:flex!important;align-items:center!important;justify-content:space-between!important;gap:15px!important}
+.lesson-shell .listen-speech{min-height:54px!important;width:auto!important;min-width:145px!important;display:flex!important;align-items:center!important;gap:14px!important;background:none!important;border:0!important;padding:0!important}.lesson-shell .listen-speech svg{width:25px!important;height:25px!important}.lesson-shell .listen-slow{margin:0!important;font-size:13px!important;min-height:44px!important}
+.lesson-shell .sound-wave{height:36px!important;gap:3px!important}.lesson-shell .sound-wave i{animation:none!important;height:7px!important;opacity:.45;transition:height .2s}
+html[data-audio-active="true"] .lesson-shell .sound-wave i{height:var(--h)!important;animation:review-audio-meter .65s ease-in-out var(--d) infinite alternate!important;opacity:1}
+html[data-audio-active="true"] .lesson-shell .audio{outline:2px solid var(--teal);outline-offset:2px}
+.lesson-shell .plain.wide-link{margin:0!important;align-self:center}
+.lesson-shell .feedback{max-height:none!important;overflow:visible!important;border-radius:12px!important;padding:14px 16px!important;box-shadow:none!important;animation:review-feedback .2s ease-out 1!important}.lesson-shell .feedback:before{display:none!important}
+.lesson-shell .feedback h3{font-size:17px!important}.lesson-shell .feedback div{font-size:14px!important;line-height:1.8}
+@keyframes review-audio-meter{from{transform:scaleY(.5)}to{transform:scaleY(1)}}
+@keyframes review-feedback{from{opacity:.4}to{opacity:1}}
+@media(min-width:1000px){.lesson-shell.exercise-layout{padding-top:35px!important;gap:24px!important}.lesson-shell .exercise h1{font-size:29px!important}.lesson-shell .bubble .phrase{font-size:30px!important}.lesson-shell .listen-scene{padding:24px!important}}
+@media(prefers-reduced-motion:reduce){html[data-audio-active="true"] .lesson-shell .sound-wave i,.lesson-shell .feedback{animation:none!important}}
+
+/* Keep the original identity, make its role explicit rather than bobbing at idle. */
+.home122-welcome{display:flex}.home122-welcome>img{display:block;width:84px;height:100px;animation:none!important}
+.lesson-shell .stage{display:flex!important;gap:14px!important;align-items:center!important}.lesson-shell .stage .mascot{display:block!important;width:88px!important;height:112px!important;flex:none;object-fit:contain;animation:none!important;transition:none!important;transform:none!important}
+.lesson-shell .stage .bubble{flex:1;min-width:0}.lesson-shell .listen-fox{display:block!important;width:85px!important;height:108px!important;object-fit:contain;animation:none!important;transform:none!important}
+.lesson-shell .listen-scene{display:flex!important;gap:16px!important;align-items:center!important}.lesson-shell .listen-bubble{display:flex!important;flex-direction:column!important;min-width:0!important;flex:1;gap:4px!important}.lesson-shell .listen-speech{min-width:0!important;width:100%!important;justify-content:center!important}.lesson-shell .dialogline{display:flex!important;align-items:flex-start;gap:12px}.lesson-shell .dialogline>img{display:block;width:58px;height:78px;object-fit:contain;flex:none}
+.lesson-shell .feedback-friend{display:block!important;width:45px!important;height:52px!important;float:left;margin:0 0 0 12px;transform:none!important}
+.lesson-shell .stage .bubble .phrase{font-size:23px!important}.lesson-shell .stage .bubble{padding:14px!important}
+@media(min-width:1000px){.lesson-shell .stage .mascot,.lesson-shell .listen-fox{width:115px!important;height:145px!important}.lesson-shell .stage .bubble .phrase{font-size:28px!important}}
+.lesson-shell .lesson-actions.answer-sheet{position:sticky!important;bottom:0!important;z-index:8;background:var(--surface)!important;padding:14px 14px calc(14px + env(safe-area-inset-bottom,0px))!important;border:1px solid var(--line)!important;border-radius:18px 18px 0 0!important;animation:sheet-arrive .2s ease-out 1}
+@keyframes sheet-arrive{from{transform:translateY(16px);opacity:.4}to{transform:translateY(0);opacity:1}}
+@media(prefers-reduced-motion:reduce){.lesson-shell .lesson-actions.answer-sheet{animation:none!important}}
+
+.lesson-shell .listen-speech:before,.lesson-shell .listen-speech:after,.lesson-shell .listen-scene:before,.lesson-shell .listen-scene:after{display:none!important}
+.lesson-shell .bubble{border-bottom-width:3px!important}.lesson-shell .tile{border-bottom-width:3px!important;transition:background .15s,transform .12s}.lesson-shell .tile:active{transform:translateY(2px)}.lesson-shell .lesson-actions>.btn:not(:disabled){border-bottom:4px solid #d47a41!important}
+.lesson-shell .lesson-actions.answer-sheet .feedback{border:0!important;background:none!important;box-shadow:none!important;padding:0 0 10px!important;margin:0!important}.lesson-shell .lesson-actions.answer-sheet:has(.good){background:var(--panel)!important;border-color:#50aa8a!important}.lesson-shell .lesson-actions.answer-sheet:has(.bad){background:var(--panel)!important;border-color:#d4777e!important}
+@media(max-width:999px){
+ .lesson-shell.exercise-layout{padding-bottom:calc(110px + env(safe-area-inset-bottom,0px))!important}
+ .lesson-shell .lesson-actions{position:fixed!important;bottom:0!important;left:0;right:0;max-width:920px!important;margin:auto!important;padding:12px 18px calc(12px + env(safe-area-inset-bottom,0px))!important;background:var(--surface)!important;z-index:9;box-shadow:0 -4px 18px #0000000c}
+ .lesson-shell .lesson-actions.answer-sheet{position:fixed!important;max-height:48svh!important;overflow-y:auto!important}
+ .route122-source:has(.flashcard)> .reading{display:flex;flex-direction:column;gap:12px}
+ .route122-source:has(.flashcard) h1{font-size:23px!important;line-height:1.45!important;margin:0!important}
+ .route122-source:has(.flashcard) .flashcard{width:100%;height:auto!important;min-height:150px!important;max-height:220px!important;padding:22px 16px!important;margin:0!important;display:flex;flex-direction:column;justify-content:center;gap:16px;border-radius:18px;box-shadow:0 3px 0 var(--line)}
+ .route122-source:has(.flashcard) .flashcard .phrase{font-size:27px!important;line-height:1.5!important}
+ .route122-source:has(.flashcard) .center-actions{position:fixed;bottom:calc(72px + env(safe-area-inset-bottom,0px));left:14px;right:14px;z-index:8;background:var(--surface);padding:10px 0;display:grid;grid-template-columns:1fr 1fr;gap:9px}
+ .route122-source:has(.flashcard) .center-actions .btn{font-size:14px;min-height:48px;padding:8px}
+}

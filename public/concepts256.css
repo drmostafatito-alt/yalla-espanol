@@ -1,0 +1,1 @@
+#app .concept-note256{line-height:1.75;font-size:14px}#app .feedback:has(.concept-note256){max-height:38vh;overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin}#app .concept-note256 button{display:block;margin-top:8px}@media(min-width:901px){#app .feedback:has(.concept-note256){max-height:36vh}}

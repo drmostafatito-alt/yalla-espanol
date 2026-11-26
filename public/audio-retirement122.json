@@ -1,0 +1,362 @@
+[
+  {
+    "file": "assets/audio/es-047.mp3",
+    "sha256": "9dbf60bad463659644ca17c7b60918ce8b0c2a5dff6d124c9e6cf53625fdb87f",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/cast-033.mp3",
+    "sha256": "29c2701f982bc6bd2a4b386ce1944ae626af326d1b4d7575a6a377473da0a3dd",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/es-069.mp3",
+    "sha256": "f56b3c6829523797cc3a4198907b42c202e70bc6ccf71e96722c245e47adceb3",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/es-046.mp3",
+    "sha256": "221d4205755acc60f025ad7e4af3f85a5d7c739ba1caa21d961bda3666ab9559",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/es-064.mp3",
+    "sha256": "6bb78740f0865029210f542a92a385b1c1dcbbf6e315ba5e6dca794b4992bc5b",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/a1b1-u8l1w1.mp3",
+    "sha256": "d1b2c6fcf33d16094d0d51d46b2a79b16bf93bc1fdd9a2a1790ec2f93020437b",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/es-057.mp3",
+    "sha256": "83ffa948bd311dc14991dade19150972974207a71f037e0dad9ded48db0bea55",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/a1b3-u17l2w2.mp3",
+    "sha256": "a335d7ddca074f57f9fb3d7ea35c17171a8bb2352610129106967353f59661b6",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/a1b3-u18l1w2.mp3",
+    "sha256": "1d802c222af09e241bb4bb116fe31776976a837df06055374f65135cf084aea1",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/a1b3-u16l2w2.mp3",
+    "sha256": "d66362d05295a60d9399622680a6f6c64cc0fc70797ec5bdee28693558f86bf2",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/a1b2-u11l7alt1.mp3",
+    "sha256": "fafd7cc090f812497514691f00d9683551e7d5c8479e1273d25f73d2e48b0918",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/a1b3-u17l3w1.mp3",
+    "sha256": "49f71be62f824ae645a723cf377701484cd4653a64014c827841f2b3fd99ae13",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/es-004.mp3",
+    "sha256": "3e72e85e3f2e888839a9f3bcf0f4a90271e803d6464a51f2335961f3f3e0ebe7",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/a1b3-u17l3w0.mp3",
+    "sha256": "5ccd87d8822d16006cf3b5f236fae4eda3afbf5eafa60b108a3bd02991ad02f8",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/es-006.mp3",
+    "sha256": "73e91c886e3ccc9d0c4acdc4562ba9147f427f194a335f5f87c9bee6e37cfbeb",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/es-013.mp3",
+    "sha256": "3a6ab7f0b925d8907e0ce0f75f517247b363a646caeefcdecb0988b93ff55981",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/es-032.mp3",
+    "sha256": "36e757007f237da08c11e88fb9048fe5f39ced778b9fd56fd3c34bb28eefefa5",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/es-033.mp3",
+    "sha256": "f9ede622ec2da24dba042ea7e7d5e67bdfd3a788334a0c9aa707c64413fbbcda",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/es-051.mp3",
+    "sha256": "cf6d126452da5d22814a8259301963fca838b339d6233656c4f6913dbf126ca0",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/es-050.mp3",
+    "sha256": "df4bf56d2f0feefe53563de6764bff48d97cefa70c48d5aa5921d92f9f980e01",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/es-062.mp3",
+    "sha256": "c2133ef848d67d5a45a8c40a1ea597b524b47cf618e04c0880e736b5356b01f2",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/a1b6-u32l4w0.mp3",
+    "sha256": "77dde061c6f262b44ff9aaa1e6bfd966e8b186840302342a2b20da2abed76dc2",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/a1b5-u25l1alt1.mp3",
+    "sha256": "4e506a67900b3c6207b8e916c6642b01e2595b6a12d2a5109e560fd47e1f35c6",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/es-043.mp3",
+    "sha256": "ef5ac5fdb6d26326e0d595fa625b680c221f8997c6ad064346df52ea1ae84cf4",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/es-068.mp3",
+    "sha256": "be68d10c9b66d01de40afe3e23acfb043cda861a2c6372b66c95e11a798552b5",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/es-077.mp3",
+    "sha256": "3528b98abd930157468cbda8758a5ba07bf400eb85fcf89d6cdb3ba54937e6d9",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/es-078.mp3",
+    "sha256": "3d22ff9770273a92c2e384ccbc303f581687505e3079dd115ec4c6d53f143326",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/es-044.mp3",
+    "sha256": "6d22c97f5d80afd6c45856f224e3abf4f22e776b6d7db88d4efd8698c1842290",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/es-073.mp3",
+    "sha256": "e676e59c94e2de7001f147acb5be19d31a083e030502b2482d69ec2643162523",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/a1b4-u24l1w2.mp3",
+    "sha256": "b7e30e746a26295ca0bc6a1d3dccc59acc305daf8cee857be0c3fd4bee313777",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/es-070.mp3",
+    "sha256": "5001cf04dafd884d0867b42d4fa95b761999350c7aed161a03713969d96b07c0",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/es-041.mp3",
+    "sha256": "9a43addd89b9573851603759576a8058f11943e3f9cde22c33d2217abf2b788c",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/a1b3-u16l1w0.mp3",
+    "sha256": "94f68d47bcdf439bb1d415cc32eafe891031f1fdc955ddd8f97be014b36cab65",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/es-019.mp3",
+    "sha256": "775eb093211b927a474fdf2a241b461ab275d9487e41a7af43e3e064aeb7ffbb",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/a1b4-u22l4alt1.mp3",
+    "sha256": "c6b1fdc117338cdaa6721cff633b395ade1c9e1adbb898cb8869c8fce8e372bb",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/es-039.mp3",
+    "sha256": "6d47176c04ca0c44710d78821814c50ff42d54179406cfa1ee8ce8ed41a4178f",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/a1b3-u17l1w1.mp3",
+    "sha256": "59b37ad92e4cf2dc63ed245c49509bee73a4000a546cdf674924d7938516e8ca",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/es-066.mp3",
+    "sha256": "9f98694aebd2257a324e8acb706924805254886c3eb209daa35cc2e5af6d24ba",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/es-061.mp3",
+    "sha256": "62373f272c3e20f30449b7cf972fbd6ea6e179b2321bd5f038ec04fe5eb381e0",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/es-095.mp3",
+    "sha256": "0c062bc081a9438fe6548d0cbb322fa35ff95226ac355e721cf1e553bc2d65c7",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/a1b4-u21l4w2.mp3",
+    "sha256": "7723d3048872a2c8228f81ba7f452327fd6d6f89d90acd0a8995d86af18b6003",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/a1b4-u24l1w1.mp3",
+    "sha256": "3c74f5da61d43cecf04cc28616c19061c6ee0ea26969047a35430d8bed6738fb",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/es-016.mp3",
+    "sha256": "63d9d3b8c5cb8bcfa4118c01d24056b0d7acc9572cc0ddec1e8093728962a999",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/es-034.mp3",
+    "sha256": "a884bc1dc9a8f181cdefb3e83c0bad9ad53cf54abec8dcb9125dc9cfc36b4835",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/es-012.mp3",
+    "sha256": "2f692f554daaa4633d4376022c80b77a95c2573521523ff289ba381bcc76d8eb",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/a1b3-u16l1w2.mp3",
+    "sha256": "e3880c63660d5300cde8cfb3f3ae721f9d7b61d04607bb06d492dff031ef1137",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/es-054.mp3",
+    "sha256": "97f42f41b63d4b94923960f8e1d36359f9c2d8a39e6b2d829c905fc048fd3ab0",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/es-022.mp3",
+    "sha256": "a95edac6afe22b3dd243dbce82470279907290b6f87b04e65c5f9cc22e718986",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/es-015.mp3",
+    "sha256": "7cf1b80dd7ef3ec939184766dc34367fbf1d30d38b15be048f07729293b3d72d",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/es-008.mp3",
+    "sha256": "e9a129ed46e08206ee95e3af953dbf6600fa46438920676bbd10b6fbf24a7bbe",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/es-010.mp3",
+    "sha256": "bd10d31d34618b92a3db9f7ea82bec7a4723f2f8cc3dccaced9f0f55151a8ad1",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/es-017.mp3",
+    "sha256": "b100078332df67837f66c94f4bd0b03b82c43b87065c77bbb9a67a3750ac2159",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/a1b2-u13l2d0.mp3",
+    "sha256": "93a84d250c166f37232776fa76b45d3b3867347f3fbc90802079e9264e9b66b6",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/a1b2-u13l2d1.mp3",
+    "sha256": "951a062484ae6d00b1a47cc9b3272383a6c1635dc84945c0382e8b681e215114",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/a1b4-u22l2w1.mp3",
+    "sha256": "310d80c6470344a339f5f8bd733daf69ad6c6e619c1ce6892f10c58d8a981993",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/a1b4-u22l2w2.mp3",
+    "sha256": "c4b9e12e9fe28c3e87a38ef45df4baf259e1f867c1b44cdf0cd2ff304b09f6aa",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/a1b6-u33l4w2.mp3",
+    "sha256": "15c15a0e601496e738fcfd238e6f7334aa91e156eca7c577c006482a672b3a90",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/a1b3-u15l6w1.mp3",
+    "sha256": "21c305910965354961aedb90340f1636a26fcb5d34ac69d208792425fb3a7b46",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/a1b3-u15l6w2.mp3",
+    "sha256": "394ac5b12b4e5018c5e9ff034d2131a1c5d1cdbc6b8dc901caafa61821db6d13",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/a1b2-u11l5w0.mp3",
+    "sha256": "1961b5a38170f587c186e3831aa0f7b96308cb524e7b8bbc11400ed04efda71b",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/a1b6-u33l4w1.mp3",
+    "sha256": "643b642de5ee4445700055efd08bd9bbce7da7178eed9c0537a7eefb700c7c03",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/a1b3-u18l1w1.mp3",
+    "sha256": "df19b1cff84b3f526847ce4da1148d332bafefe6e48b472bfe5e790775b8c5e4",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/es-027.mp3",
+    "sha256": "c9ec1d5eadb5652ce1f69a07db8f43a58a78d14b87e93248ee57c63651dd747d",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/es-038.mp3",
+    "sha256": "fb4ea5a251aaeb3540703ea1c92f804857a508ef6a6f02d6252cdddf46ddb715",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/a1b3-u15l2d0.mp3",
+    "sha256": "c692c29c8eb2a92d663157a983eb6ae11f4c6b193bf63e689937bed8c1334671",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/es-026.mp3",
+    "sha256": "64a4312d87771f8f7982ee1cefa10da1efc34e5c23c276828874a1bb8b794ba7",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/es-028.mp3",
+    "sha256": "511c7797ffb095310e76a03b026fdc566a6b224a6e9315339774ec2e1e20b584",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/cast-018.mp3",
+    "sha256": "38392e8531458e3a11d3f868ad26ced74386f145636364bd184a876e30a0d730",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/a1b3-u17l2w1.mp3",
+    "sha256": "81f7055495802e24b52b8ff1536c1e1a17dacca8a6c1273038ff45fa81757bab",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/a1b3-u16l2w1.mp3",
+    "sha256": "203dae7a2d48cc68717a3957ce50b10e23509fe7d8e167d02f3a77255c770e73",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/es-087.mp3",
+    "sha256": "84b4f19b02a6dc171eaa2ed18d42f10e52c5f3f03c8ab4e28f2758a34cbc097d",
+    "status": "retired-not-in-runtime-maps"
+  },
+  {
+    "file": "assets/audio/es-048.mp3",
+    "sha256": "c7932506a9a26b19eefb003cde0ab5479513ddf0bfc488c734a695f9c1bd5fa4",
+    "status": "retired-not-in-runtime-maps"
+  }
+]
