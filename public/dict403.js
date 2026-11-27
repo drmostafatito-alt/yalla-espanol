@@ -27,6 +27,8 @@
     const keep=[];const seen=new Set();
     const add=(es,ar)=>{const k=clean(es);if(!seen.has(k)){seen.add(k);keep.push([es,ar])}};
     lesson.forEach(e=>add(e.es,e.ar));
+    const B1=globalThis.B1VOCAB404||[];
+    if(B1.length){const qw=q.split(' ');B1.forEach(r=>{const ce=clean(r[0]),ca=clean(r[1]);if(arabic?(ca===q||ca.split(' ').includes(q)||(qw.length>1&&ca.includes(q))):(ce===q||ce.split(' ').includes(q)||(qw.length>1&&ce.includes(q))))add(r[0],r[1])})}
     if(arabic){box.querySelectorAll('.direct305-row').forEach(row=>{const es=(row.querySelector('strong')||{}).textContent||'';const ar=(row.querySelector('p')||{}).textContent||'';if(CHECKED.has(es.toLowerCase()))add(es,ar)})}
     if(!keep.length){
       box.innerHTML='<section class="card direct305"><h2>'+(arabic?'بالإسبانية':'المعاني بالعربية')+'</h2><p>مفيش معنى مراجَع للكلمة دي لسه.</p><p class="small">بنعرض بس المعاني اللي اتراجعت. المعجم بيكبر مع كل تحديث، وممكن تدوّر في الدروس تحت.</p></section>';return}
