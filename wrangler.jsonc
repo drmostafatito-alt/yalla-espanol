@@ -11,5 +11,12 @@
       "binding": "YALLA_PUSH",
       "service": "yalla-espanol-reminders"
     }
+  ],
+  "d1_databases": [
+    {
+      "binding": "STATS_DB",
+      "database_name": "yalla-stats",
+      "database_id": "b4ec9243-e420-4f90-a54d-84ebb1c6f1af"
+    }
   ]
 }

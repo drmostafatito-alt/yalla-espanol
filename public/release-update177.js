@@ -1,6 +1,6 @@
 /* Keep an open app on the current release without clearing learning or media. */
 (()=>{
- const release='401';globalThis.YALLA_RELEASE=release;let checking=false,reloading=false,registration;
+ const release='402';globalThis.YALLA_RELEASE=release;let checking=false,reloading=false,registration;
  let pending=false;const reload=()=>{if(reloading)return;if(['lesson','practice','placement','formative'].includes(view.page)){pending=true;return;}reloading=true;try{save(false)}catch{}location.reload()};
  navigator.serviceWorker?.addEventListener('message',event=>{if(event.data?.type!=='yalla-release-ready')return;event.ports?.[0]?.postMessage({ready:true});if(event.data.release!==release)reload()});
  navigator.serviceWorker?.addEventListener('controllerchange',()=>{if(registration?.active)registration.active.postMessage({type:'yalla-release-query'})});
