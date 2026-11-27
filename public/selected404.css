@@ -1,0 +1,21 @@
+/* The chosen option must always be clearly marked, in every question type and both themes.
+   Picture options had per-position pastel colours with high specificity that hid the selected style. */
+html body #app .lesson-shell .method172-option.selected,
+html body #app .lesson-shell .option.selected,
+html body #app .method172-shell .method172-pictures .method172-option.selected:nth-child(n),
+html body #app .method172-shell .method172-options .method172-option.selected:nth-child(n){
+ border-color:#0b6f7c!important;background:#d3eeea!important;box-shadow:0 0 0 3px #0b6f7c,0 3px 0 #0b6f7c!important;color:#0a4f58!important;position:relative}
+html body #app .lesson-shell .method172-option.selected::after,
+html body #app .lesson-shell .option.selected::after{content:"✓";position:absolute;top:6px;inset-inline-end:8px;width:24px;height:24px;border-radius:50%;background:#0b6f7c;color:#fff;font:700 15px/24px Arial;text-align:center;pointer-events:none}
+/* after checking: green when right, red when wrong */
+html body #app .method172-shell:has(.feedback.good) .method172-option.selected:nth-child(n){border-color:#15803d!important;background:#d7f3df!important;box-shadow:0 0 0 3px #15803d,0 3px 0 #15803d!important;color:#0f5a2a!important}
+html body #app .method172-shell:has(.feedback.good) .method172-option.selected::after{background:#15803d}
+html body #app .method172-shell:has(.feedback.bad) .method172-option.selected:nth-child(n){border-color:#c62839!important;background:#fde0e3!important;box-shadow:0 0 0 3px #c62839,0 3px 0 #c62839!important;color:#8a1624!important}
+html body #app .method172-shell:has(.feedback.bad) .method172-option.selected::after{content:"✕";background:#c62839}
+[data-theme=dark] html body #app .method172-option.selected,
+html[data-theme=dark] body #app .lesson-shell .method172-option.selected,
+html[data-theme=dark] body #app .lesson-shell .option.selected,
+html[data-theme=dark] body #app .method172-shell .method172-pictures .method172-option.selected:nth-child(n),
+html[data-theme=dark] body #app .method172-shell .method172-options .method172-option.selected:nth-child(n):not(#x){border-color:#5fd0dd!important;background:#1d4a52!important;box-shadow:0 0 0 3px #5fd0dd!important;color:#e6fbff!important}
+html[data-theme=dark] body #app .method172-shell:has(.feedback.good) .method172-option.selected:nth-child(n):not(#x):not(#y){border-color:#4ade80!important;background:#174b35!important;box-shadow:0 0 0 3px #4ade80!important;color:#d5ffe2!important}
+html[data-theme=dark] body #app .method172-shell:has(.feedback.bad) .method172-option.selected:nth-child(n):not(#x):not(#y){border-color:#ff6b7c!important;background:#592534!important;box-shadow:0 0 0 3px #ff6b7c!important;color:#ffd9de!important}
