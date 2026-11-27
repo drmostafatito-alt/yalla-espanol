@@ -4,3 +4,7 @@ node_modules/
 .dev.vars
 .wrangler/
 *.log
+*.apk
+*.keystore
+*.jks
+*.idsig
