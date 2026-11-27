@@ -1,7 +1,7 @@
-import a1,a2,b1,b2,c1,c2,d1,e1,f1,g1,hashlib,json,subprocess,os
+import a1,a2,b1,b2,c1,c2,d1,e1,f1,g1,h1,hashlib,json,subprocess,os
 os.makedirs('out',exist_ok=True)
 items=[];seen=set();i=0
-for t in a1.T+a2.T+b1.T+b2.T+c1.T+c2.T+d1.T+e1.T+f1.T+g1.T:
+for t in a1.T+a2.T+b1.T+b2.T+c1.T+c2.T+d1.T+e1.T+f1.T+g1.T+h1.T:
     ss=[e[0] for e in t['ex']]+[e[3] for e in t['exe']]
     for s in ss:
         if s in seen: continue
@@ -14,4 +14,5 @@ for h,sp,s in items:
     spk='0' if sp=='paco' else '1'
     subprocess.run(['/tmp/ttsenv/bin/piper','-m','/downloads/work/tts/es_ES-sharvard-medium.onnx','--speaker',spk,'-f','/tmp/g.wav'],input=s.encode(),capture_output=True)
     subprocess.run(['ffmpeg','-y','-loglevel','error','-i','/tmp/g.wav','-af','loudnorm=I=-18:TP=-4','-ar','24000','-ac','1','-b:a','96k',f'out/{h}.mp3'])
+open('todo_h1.tsv','w').write(''.join(f"{h}\t{sp}\t{s}\n" for h,sp,s in items[631:]))
 print(len(items))
