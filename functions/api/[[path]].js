@@ -30,4 +30,4 @@ async function route303(context) {
  return response;
 }
 
-export async function onRequest(context){const r=await route303(context),h=new Headers(r.headers);h.set('Strict-Transport-Security','max-age=31536000');h.set('X-Content-Type-Options','nosniff');h.set('X-Frame-Options','DENY');h.set('Referrer-Policy','no-referrer');return new Response(r.body,{status:r.status,statusText:r.statusText,headers:h})}
+export async function onRequest(context){let r;try{r=await route303(context)}catch{r=new Response(JSON.stringify({error:'unavailable'}),{status:503,headers:{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store'}})}const h=new Headers(r.headers);h.set('Strict-Transport-Security','max-age=31536000');h.set('X-Content-Type-Options','nosniff');h.set('X-Frame-Options','DENY');h.set('Referrer-Policy','no-referrer');return new Response(r.body,{status:r.status,statusText:r.statusText,headers:h})}
