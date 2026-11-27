@@ -11,6 +11,7 @@ async function who(request,env){
   return {uid:String(m.user.id),score:Math.min(c,100000)};
 }
 const cleanName=s=>{s=String(s||'').normalize('NFKC').replace(/\s+/g,' ').trim();if(s.length<2||s.length>20)return null;if(!/^[\p{L}\p{N} ._-]+$/u.test(s))return null;if(/@|https?:|www\./i.test(s))return null;return s};
+const IDX='CREATE UNIQUE INDEX IF NOT EXISTS lb403_name ON lb403(lower(name))';
 async function board(db,me){
   const top=(await db.prepare('SELECT uid,name,score FROM lb403 ORDER BY score DESC, updated_at ASC LIMIT 20').all()).results||[];
   let mine=null;
@@ -21,7 +22,7 @@ async function board(db,me){
 export async function onRequest({request,env}){
   try{
     if(!env.STATS_DB)return out({error:'not-configured'},503);
-    const db=env.STATS_DB;await db.prepare(SCHEMA).run();
+    const db=env.STATS_DB;await db.prepare(SCHEMA).run();try{await db.prepare(IDX).run()}catch{}
     const me=await who(request,env);
     if(request.method==='GET'){
       if(me)await db.prepare('UPDATE lb403 SET score=?,updated_at=? WHERE uid=? AND score<>?').bind(me.score,Date.now(),me.uid,me.score).run();
@@ -35,7 +36,9 @@ export async function onRequest({request,env}){
       const name=cleanName(b&&b.name);if(!name)return out({error:'name'},400);
       const taken=await db.prepare('SELECT uid FROM lb403 WHERE lower(name)=lower(?) AND uid<>?').bind(name,me.uid).first();
       if(taken)return out({error:'taken'},409);
-      await db.prepare('INSERT INTO lb403(uid,name,score,updated_at) VALUES(?,?,?,?) ON CONFLICT(uid) DO UPDATE SET name=excluded.name,score=excluded.score,updated_at=excluded.updated_at').bind(me.uid,name,me.score,Date.now()).run();
+      try{
+  await db.prepare('INSERT INTO lb403(uid,name,score,updated_at) VALUES(?,?,?,?) ON CONFLICT(uid) DO UPDATE SET name=excluded.name,score=excluded.score,updated_at=excluded.updated_at').bind(me.uid,name,me.score,Date.now()).run();
+      }catch(e){if(/UNIQUE|constraint/i.test(String(e&&e.message||e)))return out({error:'taken'},409);throw e}
       return out(await board(db,me));
     }
     return new Response('Not found',{status:404,headers:{'Cache-Control':'no-store'}});
