@@ -1,0 +1,23 @@
+.switch405{display:flex;align-items:center;justify-content:space-between;gap:14px;cursor:pointer;font-weight:700}
+.switch405 input,[data-theme] .switch405 input{-webkit-appearance:none;appearance:none;flex:0 0 auto;width:52px;height:30px;border-radius:99px;background:#c9ced6;border:0;padding:0;position:relative;margin:0;transition:background .2s;cursor:pointer;outline-offset:3px}
+.switch405 input::after{content:"";position:absolute;top:3px;inset-inline-start:3px;width:24px;height:24px;border-radius:50%;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,.3);transition:inset-inline-start .2s}
+.switch405 input:checked,[data-theme] .switch405 input:checked{background:#58cc02!important}
+.switch405 input:checked::after{inset-inline-start:25px}
+.switch405 input:focus-visible{outline:3px solid #1cb0f6}
+.switch405 i{display:none}
+.settings405-danger{border:2px solid #ffb3b3}
+.settings405-danger h2{color:#c62828;display:flex;align-items:center;gap:8px}
+.settings405-ico{display:inline-grid;place-items:center;width:26px;height:26px;border-radius:50%;background:#c62828;color:#fff;font-size:16px;font-weight:800}
+.settings405-confirm{margin-top:12px;padding:12px;border-radius:14px;background:#fff1f1;border:1px solid #ffb3b3}
+.settings405-confirm p{margin:0 0 10px}
+.danger405,.danger405-outline{min-height:44px}
+[data-theme] .btn.danger405,.btn.danger405{background:#d32f2f!important;border-color:#b71c1c!important;box-shadow:0 4px 0 #8e1515!important;color:#fff!important}
+.btn.danger405-outline{color:#c62828;border-color:#d32f2f;box-shadow:0 3px 0 #f2b8b8}
+.settings405-group{margin-top:8px}
+[data-theme="dark"] .settings405-danger,.dark .settings405-danger{border-color:#7a2a2a}
+[data-theme="dark"] .settings405-confirm,.dark .settings405-confirm{background:#2a1717;border-color:#7a2a2a;color:inherit}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .settings405-confirm{background:#2a1717;border-color:#7a2a2a;color:inherit}:root:not([data-theme="light"]) .settings405-danger{border-color:#7a2a2a}}
+/* Dark mode fix: settings cards used an undefined --card variable and stayed white, so light text vanished. */
+.settings301 .settings301-cards>.card,.settings301 .owner-entry300{background:var(--surface,#fff)!important}
+[data-theme=dark] .settings301 .settings228-icon{background:var(--panel,#1f2f38)!important}
+[data-theme=dark] .settings301 .card p{color:var(--muted,#b7c6cc)}
