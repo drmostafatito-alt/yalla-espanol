@@ -12,9 +12,7 @@ function resetCard(){
   const lv=levels(),keys=Object.keys(lv).filter(k=>stats(k).done>0||stats(k).words>0);
   const sec=document.createElement('section');sec.className='card settings405-danger';
   let h='<h2><span class="settings405-ico" aria-hidden="true">!</span>منطقة الحذر</h2><p class="settings228-caption">حاجات مفيش رجوع فيها</p>';
-  if(state.account){
-    h+='<p class="small">حسابك متزامن، وتقدمك بيرجع من الحساب بعد المزامنة. علشان كده مسح مستوى مش متاح وإنت داخل بحسابك. اخرج من الحساب الأول لو عايز تبدأ مستوى من الأول على الجهاز.</p>';
-  }else if(!keys.length){
+  if(!keys.length){
     h+='<p class="small">لسه ما خلصتش دروس تتمسح. لما تبدأ هتلاقي هنا إمكانية تبدأ أي مستوى من الأول.</p>';
   }else{
     h+='<div class="setting"><label for="reset-level405">ابدأ مستوى من الأول</label><select id="reset-level405" data-reset-level405>'+keys.map(k=>'<option value="'+k+'"'+(pending===k?' selected':'')+'>'+k+'</option>').join('')+'</select><p class="small">بيمسح دروسك المخلصة وتقدّم كلماتك في المستوى ده بس. نقاطك وسلسلة أيامك وباقي المستويات مش بتتأثر.</p>';
@@ -44,12 +42,17 @@ document.addEventListener('click',e=>{
   const a=b.dataset.reset405,sel=document.querySelector('[data-reset-level405]');
   if(a==='ask'&&sel){pending=sel.value;render();const c=document.querySelector('.settings405-confirm');if(c)c.scrollIntoView({block:'center'})}
   else if(a==='cancel'){pending=null;render()}
-  else if(a==='confirm'&&pending&&!state.account){
+  else if(a==='confirm'&&pending){
     const level=pending;const ls=levels()[level]||[];
-    for(const l of ls){delete state.completed[l.id];if(state.short143)delete state.short143[l.id];for(const w of l.words||[])delete state.words[w.id]}
-    if(state.formative){const pre=level.toLowerCase()+'-';for(const k of Object.keys(state.formative))if(k.startsWith(pre))delete state.formative[k]}
-    pending=null;save();render();
-    if(typeof toast==='function')toast('اتمسح تقدم مستوى '+level+'. تقدر تبدأ من الأول.');
+    const ids={completed:[],words:[],short143:[],formative:[]};
+    for(const l of ls){ids.completed.push(l.id);ids.short143.push(l.id);for(const w of l.words||[])ids.words.push(w.id)}
+    const pre=level.toLowerCase()+'-';if(state.formative)for(const k of Object.keys(state.formative))if(k.startsWith(pre))ids.formative.push(k);
+    const local=()=>{for(const id of ids.completed)delete state.completed[id];if(state.short143)for(const id of ids.short143)delete state.short143[id];for(const id of ids.words)delete state.words[id];for(const k of ids.formative)delete state.formative[k]};
+    const done=()=>{pending=null;save();render();if(typeof toast==='function')toast('اتمسح تقدم مستوى '+level+'. تقدر تبدأ من الأول.')};
+    if(!state.account){local();done();return}
+    if(!navigator.onLine){if(typeof toast==='function')toast('محتاج نت علشان نمسح من حسابك كمان. جرّب لما الاتصال يرجع.');return}
+    b.disabled=true;
+    api('progress-forget',ids).then(()=>{local();done()}).catch(err=>{b.disabled=false;if(typeof toast==='function')toast((err&&err.message)||'ما قدرناش نمسح من الحساب. جرّب تاني.')});
   }
 });
 if(location.hash==='#settings')render();
