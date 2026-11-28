@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 Disallow: /api/
-Disallow: /offline-private159/
 Sitemap: https://yalla-espanol.pages.dev/sitemap.xml
