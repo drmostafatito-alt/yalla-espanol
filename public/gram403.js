@@ -11,7 +11,7 @@
   const ARB=t=>st.ar&&t?'<span class="g4-ar" dir="rtl" lang="ar">'+arh(t)+'</span>':'';
   let st={}; try{st=JSON.parse(localStorage.getItem('gram403')||'{}')}catch(e){}
   const save=()=>{try{localStorage.setItem('gram403',JSON.stringify(st))}catch(e){}};
-  st.done=st.done||{};st.ar=!!st.ar;
+  st.done=st.done||{};st.ar=(st.ar===undefined)?true:!!st.ar;
   const PAL={'Presente':['#087b79','sun'],'Nombres y artículos':['#b8860b','tag'],'Imperativo':['#d6546a','mega'],'Pasado':['#d9772b','past'],'Presente y futuro':['#2f86c8','up'],'Comparar y relacionar':['#3f9a6b','scale'],'Condicional y subjuntivo':['#7256af','spark'],'Oraciones':['#8b5fbf','puzzle']};
   const IC={sun:'<circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2"/>',tag:'<path d="M3 12V4h8l10 10-8 8z"/><circle cx="7.5" cy="8.5" r="1.3"/>',mega:'<path d="M3 10v4h4l8 4V6L7 10z"/><path d="M18 9a4 4 0 010 6"/>',past:'<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',up:'<path d="M5 19L19 5M9 5h10v10"/>',scale:'<path d="M12 3v18M6 21h12M5 7h14M5 7l-3 7a3 3 0 006 0zM19 7l-3 7a3 3 0 006 0z"/>',spark:'<path d="M12 3l2 6 6 2-6 2-2 6-2-6-6-2 6-2z"/>',puzzle:'<path d="M4 4h6v3a2 2 0 104 0V4h6v6h-3a2 2 0 100 4h3v6H4z"/>',book:'<path d="M4 19V5a2 2 0 012-2h13v16H6a2 2 0 00-2 2z"/><path d="M8 7h7"/>',check:'<path d="M5 12l5 5L20 7"/>',x:'<path d="M6 6l12 12M18 6L6 18"/>'};
   const ic=(k,z)=>'<svg class="g4-svg" width="'+(z||20)+'" height="'+(z||20)+'" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'+(IC[k]||IC.book)+'</svg>';
